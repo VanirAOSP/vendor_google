@@ -185,16 +185,6 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := RcsService
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/app/RcsService/RcsService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_DEX_PREOPT := false
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk

@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     radioconfig \
     RCSBootstraputil \
-    RcsService \
     shutdownlistener \
     TimeService \
     VZWAPNLib \
