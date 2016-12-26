@@ -31,7 +31,6 @@ PRODUCT_PACKAGES += \
     embms \
     fastdormancy \
     NetworkSetting \
-    PresencePolling \
     QAS_DVC_MSP \
     QtiTelephonyService \
     radioconfig \
